@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Youtube Template",
-  description: "Generete most perfects youtube titles and descriptions",
+  description: "Generate most perfects youtube titles and descriptions",
 };
 
 export default function RootLayout({

@@ -135,7 +135,7 @@ export default function Home() {
             <Separator />
 
             <Button className="w-full" type="submit">
-              Execute <Wand2 className="w-4 h-2 ml-2" />
+              Execute <Wand2 className="w-4 h-4 ml-2" />
             </Button>
           </form>
         </aside>
