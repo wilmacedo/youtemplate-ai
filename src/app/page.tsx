@@ -11,6 +11,7 @@ import { Separator } from "@/components/ui/separator";
 import { Slider } from "@/components/ui/slider";
 import { Textarea } from "@/components/ui/textarea";
 import { FileVideo, Github, Upload, Wand2 } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -25,10 +26,12 @@ export default function Home() {
 
           <Separator orientation="vertical" className="h-6" />
 
-          <Button variant="outline">
-            <Github className="w-4 h-4 mr-2" />
-            Github
-          </Button>
+          <Link href="https://github.com/wilmacedo/youtemplate.ai">
+            <Button variant="outline">
+              <Github className="w-4 h-4 mr-2" />
+              Github
+            </Button>
+          </Link>
         </div>
       </div>
 
